@@ -8,8 +8,11 @@
         <title>Agency - Start Bootstrap Theme</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Xep+k1YDRwT0Z9+h/lztygY8QAXsjvzVUmAaLpV2pbR7Shh9X3ADwsL4WdjJF2y+xMF4VEVOrVabZpgT0lgRcg==" crossorigin="anonymous" />
+        
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
@@ -220,22 +223,25 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
+                            
                             <div class="form-group">
                                 <!-- Name input-->
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <input class="form-control" id="name" type="text" placeholder="Ingrese su nombre*" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="name:required">Ingresar nombre!!.</div>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fas fa-envelope bigicon"></i></span>
                                 <input class="form-control" id="email" type="email" placeholder="Ingrese su Email *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">Ingrese su email!!.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
                                 <input class="form-control" id="phone" type="tel" placeholder="Ingrese su Telefono *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">Ingrese su numero de telefono!!.</div>
                             </div>
@@ -243,6 +249,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fas fa-pencil-alt bigicon"></i></span>
                                 <textarea class="form-control" id="message" placeholder="Escriba su mensaje aqui *" data-sb-validations="required"></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Mensaje vacio!! ingrese uno.</div>
                             </div>
